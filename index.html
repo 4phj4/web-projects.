@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>彼岸花?- 花叶永不相见</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo" onclick="goHome()">彼岸花</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#meaning" class="nav-link">花语寓意</a></li>
+                <li><a href="#encyclopedia" class="nav-link">植物百科</a></li>
+                <li><a href="#legend" class="nav-link">传说故事</a></li>
+                <li><a href="#gallery" class="nav-link">图集画廊</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<section class="home-section" id="home">
+        <div class="home-bg"></div>
+        <div class="home-overlay"></div>
+        
+        <h1 class="home-title">彼岸花，花叶永不相见</h1>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/61bf7e4d0f884f94bd06cba8358c5c0d~tplv-9xxiciwj9y-image.image" alt="彼岸花1" loading="lazy">
+                <div class="reflection"><img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/61bf7e4d0f884f94bd06cba8358c5c0d~tplv-9xxiciwj9y-image.image" alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/e67b944f9f6040c691f8651fb9224ced~tplv-9xxiciwj9y-image.image" alt="彼岸花2" loading="lazy">
+                <div class="reflection"><img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/e67b944f9f6040c691f8651fb9224ced~tplv-9xxiciwj9y-image.image" alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/4b139990c70d4673a95e34310ca3e1bc~tplv-9xxiciwj9y-image.image" alt="彼岸花3" loading="lazy">
+                <div class="reflection"><img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/4b139990c70d4673a95e34310ca3e1bc~tplv-9xxiciwj9y-image.image" alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/520f0f4b93d1445a9ccebab48f441dea~tplv-9xxiciwj9y-image.image" alt="彼岸花4" loading="lazy">
+                <div class="reflection"><img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/520f0f4b93d1445a9ccebab48f441dea~tplv-9xxiciwj9y-image.image" alt=""></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/96ccd3e91bcd44f58f0f7b4d4b2bee2b~tplv-9xxiciwj9y-image.image" alt="彼岸花5" loading="lazy">
+                <div class="reflection"><img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/96ccd3e91bcd44f58f0f7b4d4b2bee2b~tplv-9xxiciwj9y-image.image" alt=""></div>
+            </div>
+        </div>
+        
+        <a href="#meaning" class="explore-btn">点我了解更多</a>
+    </section>
+
+    <section class="page-content single-page-section" id="meaning">
+
+        <div class="page-header">
+            <h1 class="page-title">花语寓意</h1>
+            <p class="page-subtitle">Flower Language & Symbolism</p>
+        </div>
+
+        <section class="meaning-section">
+            <div class="meaning-intro">
+                <p class="meaning-quote">"彼岸花开开彼岸，奈何桥前可奈何"</p>
+            </div>
+
+            <div class="meaning-grid">
+                <div class="meaning-card" onclick="openModal('red')">
+                    <div class="card-icon">🔴</div>
+                    <h3>红色彼岸花</h3>
+                    <p>代表无尽的爱情、死亡的前兆、地狱的召唤。在中国文化中，红色彼岸花象征着生死离别，是黄泉路上的引魂花。</p>
+                </div>
+
+                <div class="meaning-card" onclick="openModal('white')">
+                    <div class="card-icon">⚪</div>
+                    <h3>白色彼岸花</h3>
+                    <p>代表无尽的思念、绝望的爱情、天堂的来信。白色彼岸花又称曼陀罗华，象征着对逝去之人的无尽思念。</p>
+                </div>
+
+                <div class="meaning-card" onclick="openModal('yellow')">
+                    <div class="card-icon">🟡</div>
+                    <h3>黄色彼岸花</h3>
+                    <p>代表敬爱、幸运、重逢、希望。黄色彼岸花较为稀有，象征着在绝望中寻找光明的希望。</p>
+                </div>
+            </div>
+        </section>
+    
+    </section>
+
+    <section class="page-content single-page-section" id="encyclopedia">
+
+        <div class="page-header">
+            <h1 class="page-title">植物百科</h1>
+            <p class="page-subtitle">Botanical Encyclopedia</p>
+        </div>
+
+        <section class="encyclopedia-section">
+            <div class="info-card-main">
+                <h2 class="info-card-title">彼岸花资料卡片</h2>
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="info-label">学名</span>
+                        <span class="info-value">Lycoris radiata</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">科属</span>
+                        <span class="info-value">石蒜科石蒜属</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">别名</span>
+                        <span class="info-value">曼珠沙华、红花石蒜、龙爪花</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">生长习性</span>
+                        <span class="info-value">原产于中国长江流域，喜阴湿环境，耐寒性强，花期8-9月，先花后叶，花叶永不相见</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">分布地区</span>
+                        <span class="info-value">中国、日本、韩国等东亚地区</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">形态特征</span>
+                        <span class="info-value">鳞茎近球形，叶带状，花茎高约30-60厘米，伞形花序有花4-7朵，花瓣反卷如龙爪</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </section>
+
+    <section class="page-content single-page-section" id="legend">
+
+        <div class="page-header">
+            <h1 class="page-title">传说故事</h1>
+            <p class="page-subtitle">Legends & Myths</p>
+        </div>
+
+        <section class="legend-section">
+            <div class="legend-content">
+                <div class="legend-quote">
+                    "彼岸花开开彼岸，奈何桥前可奈何。<br>
+                    望乡台下忘川水，三生石边卖孟婆。"
+                </div>
+
+                <p>很久很久以前，城市的边缘开满了大片大片的彼岸花——也就是曼珠沙华。守护彼岸花的是两个妖精，一个是花妖叫曼珠，一个是叶妖叫沙华。</p>
+
+                <p>他们守候了几千年的彼岸花，可是从来没有见过面，因为开花的时候，就没有叶子，有叶子的时候就没有花。他们疯狂地想念着彼此，并被这种痛苦折磨着。</p>
+
+                <div class="legend-quote">
+                    "我花开时，你未生；你叶生时，我已逝。"
+                </div>
+
+                <p>终于有一天，他们决定违背神的规定偷偷地见一次面。那一年的曼珠沙华红艳艳的花被惹眼的绿色衬托着，开得格外妖冶美丽。神怪罪下来，这也是意料之中的。曼珠和沙华被打入轮回，并被诅咒永远也不能在一起，生生世世在人间受到磨难。</p>
+
+                <p>从那以后，曼珠沙华又叫彼岸花，意思是开放在天国的花，花的形状像一只只在向天堂祈祷的手掌，可是再也没有在这个城市出现过。这种花是开在黄泉路上的，曼珠和沙华每一次转世在黄泉路上闻到彼岸花的香味就能想起前世的自己，然后发誓不分开，在下一次再次跌入诅咒的轮回。</p>
+
+                <div class="legend-quote">
+                    "以彼岸花为证，花叶虽不相见，却同根相生。<br>
+                    你们的爱情将化作花香，飘散在每一朵彼岸花中，<br>
+                    生生世世，永不凋零。"
+                </div>
+
+                <p>从此，每当彼岸花盛开的季节，人们总能在花海中感受到一种淡淡的忧伤与温暖。那是曼珠与沙华的爱情，跨越了生死的界限，在每一朵花中延续。</p>
+            </div>
+        </section>
+    
+    </section>
+
+    <section class="page-content single-page-section" id="gallery">
+
+        <div class="page-header">
+            <h1 class="page-title">图集画廊</h1>
+            <p class="page-subtitle">Gallery</p>
+        </div>
+
+        <section class="gallery-section">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="red">红花</button>
+                <button class="filter-btn" data-filter="art">艺术</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-grid-item" data-category="red">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/61bf7e4d0f884f94bd06cba8358c5c0d~tplv-9xxiciwj9y-image.image" alt="彼岸花1">
+                </div>
+                <div class="gallery-grid-item" data-category="red">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/e67b944f9f6040c691f8651fb9224ced~tplv-9xxiciwj9y-image.image" alt="彼岸花2">
+                </div>
+                <div class="gallery-grid-item" data-category="red">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/4b139990c70d4673a95e34310ca3e1bc~tplv-9xxiciwj9y-image.image" alt="彼岸花3">
+                </div>
+                <div class="gallery-grid-item" data-category="red">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/520f0f4b93d1445a9ccebab48f441dea~tplv-9xxiciwj9y-image.image" alt="彼岸花4">
+                </div>
+                <div class="gallery-grid-item" data-category="red">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/96ccd3e91bcd44f58f0f7b4d4b2bee2b~tplv-9xxiciwj9y-image.image" alt="彼岸花5">
+                </div>
+                <div class="gallery-grid-item" data-category="red">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/fe97ab08636d4331b849d9edc5410463~tplv-9xxiciwj9y-image.image" alt="彼岸花6">
+                </div>
+                <div class="gallery-grid-item" data-category="art">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/41e91928c6134a3686fac70a3fae1619~tplv-9xxiciwj9y-image.image" alt="艺术彼岸花1">
+                </div>
+                <div class="gallery-grid-item" data-category="art">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/5e4a88eedfc74b8381b86f35b4298204~tplv-9xxiciwj9y-image.image" alt="艺术彼岸花2">
+                </div>
+                <div class="gallery-grid-item" data-category="art">
+                    <img src="https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/b3c3f65bc3d44114816208895be1b74e~tplv-9xxiciwj9y-image.image" alt="艺术彼岸花3">
+                </div>
+            </div>
+        </section>
+    
+    </section>
+
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImg" src="" alt="彼岸花">
+                </div>
+                <div class="modal-text">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDesc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+            <img src="" alt="大图" id="lightbox-img">
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">彼岸花开，生生相错</p>
+            <p class="footer-copyright">© 2026 彼岸花主题展示</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script>
+
+        const modalData = {
+            red: {
+                title: '红色彼岸花',
+                image: 'https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/56d2d095294c432498c06f054a56cc3f~tplv-9xxiciwj9y-image.image',
+                desc: '代表无尽的爱情、死亡的前兆、地狱的召唤。在中国文化中，红色彼岸花象征着生死离别，是黄泉路上的引魂花。'
+            },
+            white: {
+                title: '白色彼岸花',
+                image: 'https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/766ebb539b604a15ac631e46080cce99~tplv-9xxiciwj9y-image.image',
+                desc: '代表无尽的思念、绝望的爱情、天堂的来信。白色彼岸花又称曼陀罗华，象征着对逝去之人的无尽思念。'
+            },
+            yellow: {
+                title: '黄色彼岸花',
+                image: 'https://chat-image.stepfun.com/tos-cn-i-9xxiciwj9y/1d9c2271aad242e0a7a9533d956745e4~tplv-9xxiciwj9y-image.image',
+                desc: '代表敬爱、幸运、重逢、希望。黄色彼岸花较为稀有，象征着在绝望中寻找光明的希望。'
+            }
+        };
+
+        function openModal(type) {
+            const data = modalData[type];
+            document.getElementById('modalImg').src = data.image;
+            document.getElementById('modalTitle').textContent = data.title;
+            document.getElementById('modalDesc').textContent = data.desc;
+            document.getElementById('modalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(event) {
+            if (!event || event.target === document.getElementById('modalOverlay')) {
+                document.getElementById('modalOverlay').classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+    
+    </script>
+</body>
+</html>
